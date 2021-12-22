@@ -1,0 +1,6 @@
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.pdb

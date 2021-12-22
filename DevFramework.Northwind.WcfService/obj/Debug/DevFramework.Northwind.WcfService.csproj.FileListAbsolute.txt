@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\bin\DevFramework.Northwind.WcfService.dll.config
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\bin\DevFramework.Northwind.WcfService.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\bin\DevFramework.Northwind.WcfService.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\obj\Debug\DevFramework.Northwind.WcfService.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\obj\Debug\DevFramework.Northwind.WcfService.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\obj\Debug\DevFramework.Northwind.WcfService.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.WcfService\obj\Debug\DevFramework.Northwind.WcfService.pdb

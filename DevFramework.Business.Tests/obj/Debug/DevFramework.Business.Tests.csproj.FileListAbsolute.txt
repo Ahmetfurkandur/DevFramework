@@ -1,0 +1,14 @@
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\DevFramework.Business.Tests.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\DevFramework.Business.Tests.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\obj\Debug\DevFramework.Business.Tests.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\obj\Debug\DevFramework.Business.Tests.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\obj\Debug\DevFramework.Business.Tests.csproj.CopyComplete
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\obj\Debug\DevFramework.Business.Tests.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Business.Tests\obj\Debug\DevFramework.Business.Tests.pdb
