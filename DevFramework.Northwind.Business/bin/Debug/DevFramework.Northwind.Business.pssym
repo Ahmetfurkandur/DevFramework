@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="31" PostSharpLinesOfCode="0" EnhancedTypesCount="1" SchemaVersion="1" PostSharpVersion="6.10.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.FluentValidationAspect">
+    <Instance Declaration="#2=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Add(DevFramework.Northwind.Entities.Concrete.Product)" Id="5ffabd7d2da8772f">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Update(DevFramework.Northwind.Entities.Concrete.Product)" Id="5ffabd7df13fa92c">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#1" Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#5=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6=2" Description="#7=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>

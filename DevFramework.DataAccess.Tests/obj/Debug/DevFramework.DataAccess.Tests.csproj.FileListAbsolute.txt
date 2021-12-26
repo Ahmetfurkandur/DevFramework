@@ -38,3 +38,8 @@ C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\obj\De
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\obj\Debug\DevFramework.DataAccess.Tests.csproj.CopyComplete
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\obj\Debug\DevFramework.DataAccess.Tests.dll
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\obj\Debug\DevFramework.DataAccess.Tests.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\FluentValidation.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\netstandard.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\FluentValidation.xml
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\PostSharp.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\PostSharp.xml

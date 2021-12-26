@@ -20,3 +20,8 @@ C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\obj\
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.csproj.CopyComplete
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.dll
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\bin\Debug\FluentValidation.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\bin\Debug\netstandard.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\bin\Debug\FluentValidation.xml
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\bin\Debug\PostSharp.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.Entities\bin\Debug\PostSharp.xml

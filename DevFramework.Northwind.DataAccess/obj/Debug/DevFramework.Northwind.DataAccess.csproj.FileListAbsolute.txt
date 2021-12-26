@@ -28,3 +28,8 @@ C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\ob
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.csproj.CopyComplete
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.dll
 C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.pdb
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\FluentValidation.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\netstandard.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\FluentValidation.xml
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\PostSharp.dll
+C:\Users\lenovo\Desktop\coding\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\PostSharp.xml
