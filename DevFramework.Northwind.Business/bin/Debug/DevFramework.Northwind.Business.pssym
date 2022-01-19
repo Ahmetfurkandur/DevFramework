@@ -1,16 +1,157 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="31" PostSharpLinesOfCode="0" EnhancedTypesCount="1" SchemaVersion="1" PostSharpVersion="6.10.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
-  <Class Class="#1=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.FluentValidationAspect">
-    <Instance Declaration="#2=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Add(DevFramework.Northwind.Entities.Concrete.Product)" Id="5ffabd7d2da8772f">
-      <Target LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry" Ordinal="0" />
+<Symbols LinesOfCode="59" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.10.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.ExceptionAspects.ExceptionLogAspect">
+    <Instance Declaration="#2=A:DevFramework.Northwind.Business" Id="5ffabd7dd2876cc5">
+      <Target Target="#3=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::TransactionalOperation(DevFramework.Northwind.Entities.Concrete.Product, DevFramework.Northwind.Entities.Concrete.Product)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnException" Ordinal="25" />
+      </Target>
+      <Target Target="#5=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::GetAll()" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="5" />
+      </Target>
+      <Target Target="#6=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Add(DevFramework.Northwind.Entities.Concrete.Product)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="14" />
+      </Target>
+      <Target Target="#7=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Update(DevFramework.Northwind.Entities.Concrete.Product)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
+      </Target>
+      <Target Target="#8=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::#ctor(DevFramework.Northwind.DataAccess.Abstract.IProductDal)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#9=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::GetById(System.Int32)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="10" />
+      </Target>
+      <Target Target="#10=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Delete(DevFramework.Northwind.Entities.Concrete.Product)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="21" />
+      </Target>
+      <Target Target="#11=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.UserManager::#ctor(DevFramework.Northwind.DataAccess.Abstract.IUserDal)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="29" />
+      </Target>
+      <Target Target="#12=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.UserManager::GetByUserNameAndPassword(System.String, System.String)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="32" />
+      </Target>
+      <Target Target="#13=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.UserManager::GetUserRoles(DevFramework.Northwind.Entities.Concrete.User)" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="35" />
       </Target>
     </Instance>
-    <Instance Declaration="#4=M:[DevFramework.Northwind.Business]DevFramework.Northwind.Business.Concrete.Managers.ProductManager::Update(DevFramework.Northwind.Entities.Concrete.Product)" Id="5ffabd7df13fa92c">
-      <Target LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#3" />
+    <Instance Declaration="#3" Id="5ffabd7d45e50b9b">
+      <Target LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="27" />
       </Target>
     </Instance>
   </Class>
-  <Annotation Target="#5=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6=2" Description="#7=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Class Class="#14=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.LogAspects.LogAspect">
+    <Instance Declaration="#2" Id="5ffabd7d5aca0944">
+      <Target Target="#3" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15=Wrapped by advice(s) OnEntry" Ordinal="26" />
+      </Target>
+      <Target Target="#5" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="7" />
+      </Target>
+      <Target Target="#6" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="13" />
+      </Target>
+      <Target Target="#7" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="17" />
+      </Target>
+      <Target Target="#9" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="8" />
+      </Target>
+      <Target Target="#10" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="19" />
+      </Target>
+      <Target Target="#12" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="30" />
+      </Target>
+      <Target Target="#13" LinesAvoided="2">
+        <JoinPoint Advising="#14" Description="#15" Ordinal="33" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#16=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.PerformanceAspects.PerformanceCounterAspect">
+    <Instance Declaration="#2" Id="5ffabd7d2d081b34">
+      <Target Target="#3" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17=Wrapped by advice(s) OnEntry, OnExit" Ordinal="23" />
+      </Target>
+      <Target Target="#5" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="6" />
+      </Target>
+      <Target Target="#6" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="11" />
+      </Target>
+      <Target Target="#7" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="15" />
+      </Target>
+      <Target Target="#8" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="0" />
+      </Target>
+      <Target Target="#9" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="9" />
+      </Target>
+      <Target Target="#10" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="20" />
+      </Target>
+      <Target Target="#11" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="28" />
+      </Target>
+      <Target Target="#12" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="31" />
+      </Target>
+      <Target Target="#13" LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="34" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5" Id="5ffabd7dbb92bce2">
+      <Target LinesAvoided="4">
+        <JoinPoint Advising="#16" Description="#17" Ordinal="3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#18=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.AuthorizationAspects.SecuredOperation">
+    <Instance Declaration="#5" Id="5ffabd7d1c818db4">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#18" Description="#15" Ordinal="2" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#19=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.ValidationAspects.FluentValidationAspect">
+    <Instance Declaration="#6" Id="5ffabd7dd769cb4e">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#15" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7" Id="5ffabd7d72829f91">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#15" Ordinal="16" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#3" Id="5ffabd7d393bdd68">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#15" Ordinal="22" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#20=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.TransactionAspects.TransactionScopeAspect">
+    <Instance Declaration="#3" Id="5ffabd7dfff4af7a">
+      <Target LinesAvoided="6">
+        <JoinPoint Advising="#20" Description="#21=Wrapped by advice(s) OnEntry, OnSuccess, OnExit" Ordinal="24" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#22=T:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#5" Id="5ffabd7dfef335ed">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#22" Description="#23=Intercepted by OnInvoke" Ordinal="4" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#24=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.ExceptionAspects.ExceptionLogAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25=2" Description="#26=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#27=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.PerformanceAspects.PerformanceCounterAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#28=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.PerformanceAspects.PerformanceCounterAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#29=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#30=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.AuthorizationAspects.SecuredOperation::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#31=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.ValidationAspects.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#32=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#33=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#34=M:[DevFramework.Core]DevFramework.Core.Aspects.PostSharp.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#25" Description="#26" />
+  <Annotation Target="#35=M:[PostSharp]PostSharp.Aspects.IMethodInterceptionAspect::OnInvoke([PostSharp]PostSharp.Aspects.MethodInterceptionArgs)" Arguments="#25" Description="#26" />
 </Symbols>

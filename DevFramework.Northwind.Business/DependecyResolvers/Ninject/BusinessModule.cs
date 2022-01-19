@@ -22,7 +22,9 @@ namespace DevFramework.Northwind.Business.DependecyResolvers.Ninject
         {
             //Dependecy injection for business layer.
             Bind<IProductService>().To<ProductManager>().InSingletonScope();
-            Bind<IProductDal>().To<EfProductDal>();
+            Bind<IProductDal>().To<EfProductDal>().InSingletonScope();
+            Bind<IUserService>().To<UserManager>().InSingletonScope();
+            Bind<IUserDal>().To<EfUserDal>().InSingletonScope();
 
 
             //Dependecy injection for core layer.

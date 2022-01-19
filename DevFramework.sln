@@ -12,10 +12,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.Business", "DevFramework.Northwind.Business\DevFramework.Northwind.Business.csproj", "{8C427FA2-F23E-4AC7-A1B2-182C00560DEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Notrhwind.MvcWebUI", "DevFramework.Notrhwind.MvcWebUI\DevFramework.Notrhwind.MvcWebUI.csproj", "{11EDDAD3-3FDA-4C03-ABCA-E31B647A5699}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23FD7BE6-F94F-40FE-89D4-DA08E7AB1492} = {23FD7BE6-F94F-40FE-89D4-DA08E7AB1492}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Notrhwind.MvcWebUI.Tests", "DevFramework.Notrhwind.MvcWebUI.Tests\DevFramework.Notrhwind.MvcWebUI.Tests.csproj", "{EB8764A8-6813-4B5F-A1A9-13CC2A6E5547}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess.Tests", "DevFramework.DataAccess.Tests\DevFramework.DataAccess.Tests.csproj", "{E9F3823A-784D-4793-A1C9-896D3C86BF6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23FD7BE6-F94F-40FE-89D4-DA08E7AB1492} = {23FD7BE6-F94F-40FE-89D4-DA08E7AB1492}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Business.Tests", "DevFramework.Business.Tests\DevFramework.Business.Tests.csproj", "{23FD7BE6-F94F-40FE-89D4-DA08E7AB1492}"
 EndProject
